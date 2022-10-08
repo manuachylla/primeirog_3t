@@ -1,15 +1,13 @@
-let tabuada = 2;
-
-
-function escreva("Tabuada do " + tabuada+ "<br>"){
-    document.write(tabuada+ " x 1 = "+(tabuada*1)+"<br>");
-    document.write(tabuada+ " x 1 = "+(tabuada*2)+"<br>");
-    document.write(tabuada+ " x 1 = "+(tabuada*3)+"<br>");
-    document.write(tabuada+ " x 1 = "+(tabuada*4)+"<br>");
-    document.write(tabuada+ " x 1 = "+(tabuada*5)+"<br>");
-    document.write(tabuada+ " x 1 = "+(tabuada*6)+"<br>");
-    document.write(tabuada+ " x 1 = "+(tabuada*7)+"<br>");
-    document.write(tabuada+ " x 1 = "+(tabuada*8)+"<br>");
-    document.write(tabuada+ " x 1 = "+(tabuada*9)+"<br>");
-    document.write(tabuada+ " x 1 = "+(tabuada*10)+"<br>");
+function total(){
+    let c = document.getElementById("Capital").value;
+    let j = document.getElementById("Juros").value;
+    let t = document.getElementById("Meses").value;
+    let m = 0; 
+    for(let i = 1; i <= t; i++){
+        m = c * (1+(j/100));
+        document.write("Valor no mễs: " + i + " = " + m + "<br>");
+        c = m; 
+    }
+    
+    document.write("Montante: " + m);
 }
