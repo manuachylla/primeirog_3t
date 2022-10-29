@@ -1,6 +1,6 @@
 .calc {
-    background-color: rgb(73, 0, 116);
-    color: rgb(253, 145, 5);
+    background-color: rgb(73, 110, 116);
+    color: rgb(53, 15, 5);
     width: 200px;
     padding: 10px;
     border-radius: 10px;
@@ -8,13 +8,13 @@
 
 }
 input {
-    background-color: rgb(155, 204, 140);
+    background-color: rgb(15, 204, 10);
     color: black;
     border-radius: 5px;
     padding: 5px;
 }
 #sptotal {
-    background-color: rgb(253, 152, 0);
+    background-color: rgb(23, 15, 0);
     color: black;
     border-radius: 5px;
     padding: 5px;
@@ -29,7 +29,7 @@ input {
     margin-top: 10px;
 }
 .calc button:hover {
-    background-color: rgb(133, 88, 255);
+    background-color: rgb(13, 88, 25);
     color: black;
     cursor: pointer;
 }
